@@ -1,0 +1,15 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "My Postman test project",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-test-production": "newman run tests"
+  },
+  "author": "Myroslav Toporovskyi",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}

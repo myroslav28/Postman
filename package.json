@@ -1,14 +1,22 @@
 {
   "name": "postman",
   "version": "1.0.0",
-  "description": "My Postman test project",
-  "directories": {
-    "test": "test"
-  },
+  "description": "Postman test",
+  "directories":{
+    "test": "tests"
+},
   "scripts": {
-    "api-test-production": "newman run tests"
+    "api-tests-production": "newman run tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myroslav28/Postman.git"
   },
   "author": "Myroslav Toporovskyi",
+  "bugs": {
+    "url": "https://github.com/myroslav28/Postman/issues"
+  },
+  "homepage": "https://github.com/myroslav28/Postman#readme",
   "dependencies": {
     "newman": "^3.9.3"
   }
